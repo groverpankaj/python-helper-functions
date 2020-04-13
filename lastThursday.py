@@ -6,6 +6,7 @@
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 
+
 def lastThursday(inputDate):
   
   # convert to datetime with format 2019-12-01
