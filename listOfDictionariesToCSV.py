@@ -31,3 +31,6 @@ rateList = [
 listToCSV(rateList, 'InterestRate')
 
 
+input('\nAll is Well :)')
+
+
