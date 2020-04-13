@@ -8,7 +8,7 @@ from dateutil.relativedelta import relativedelta
 
 def lastThursday(inputDate):
   
-  # conver to datetime with format 2019-12-01
+  # convert to datetime with format 2019-12-01
   inputDt = datetime.strptime(inputDate, '%B %Y').date()
 
   # Last day of month - Add one month, then subract one day
@@ -30,5 +30,7 @@ def lastThursday(inputDate):
 givenDate = 'December 2019'
 
 # 2019-12-26
-print('Last Thursday of' , givenDate, 'is on' , lastThursday(givenDate))  
+print('Last Thursday of' , givenDate, 'is on' , lastThursday(givenDate))
+
+input('\nAll is Well :)')
 
