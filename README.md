@@ -1,4 +1,4 @@
-# Some of the helper functions which I am building to be used in my Projects/Websites
+## Some of the helper functions which I am building to be used in my Projects/Websites
 
 
 ### 1. lastThursday
